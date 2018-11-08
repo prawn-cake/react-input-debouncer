@@ -1,1 +1,45 @@
 # react-input-debouncer
+
+## Why ?
+Are you familiar with a problem of poor performance 
+when filtering list of items using by the input text?
+
+A typical solution is to debounce an input change for some milliseconds. 
+And many libraries exist to solve it, including famous [lodash debounce](https://lodash.com/docs/4.17.10#debounce).
+
+Few issues with them: 
+
+* Many of those libraries are wrappers around lodash.
+* Libraries provide wrapper input components which is totally redundant
+
+This library just provides react specific `debounce` function to use it with regular html input.
+
+
+## Install
+
+    npm install react-input-debouncer
+    
+
+## Usage
+
+Here I use `useState` hook, one of latest and greatest [react hooks](https://reactjs.org/docs/hooks-intro.html) features.
+
+    import { useState } from 'react'
+    import debounce from 'react-input-debouncer'
+    
+    function MyComponent({ props }) {
+        [value, setValue] = useState(''); 
+        return (
+            <React.Fragment>
+                ...
+                <label>{value}</label>
+                <input 
+                    type="text"
+                    onChange={debounce(e => setValue(e.target.value), 100)}
+                />
+            </React.Fragment>
+        )
+    }
+    
+`MyComponent` renders a fragment with a label and a text input elements. 
+Text input is debounced for 100ms.
