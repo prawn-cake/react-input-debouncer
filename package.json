@@ -1,5 +1,5 @@
 {
-  "name": "react-input-debouncer",
+  "name": "@prawn-cake/react-input-debouncer",
   "version": "1.0.0",
   "description": "Zero dependencies text input debounce function for react",
   "main": "src/index.js",

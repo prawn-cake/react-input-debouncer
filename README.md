@@ -17,7 +17,10 @@ This library just provides react specific `debounce` function to use it with reg
 
 ## Install
 
-    npm install react-input-debouncer
+    npm install --save @prawn-cake/react-input-debouncer
+    
+    # OR
+    yarn add @prawn-cake/react-input-debouncer
     
 
 ## Usage
