@@ -1,0 +1,24 @@
+{
+  "name": "react-input-debouncer",
+  "version": "1.0.0",
+  "description": "Zero dependencies text input debounce function for react",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prawn-cake/react-input-debouncer.git"
+  },
+  "keywords": [
+    "react",
+    "debouncing",
+    "javascript"
+  ],
+  "author": "Maksim Ekimovskii <ekimovsky.maksim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prawn-cake/react-input-debouncer/issues"
+  },
+  "homepage": "https://github.com/prawn-cake/react-input-debouncer#readme"
+}
