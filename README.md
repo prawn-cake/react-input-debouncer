@@ -1,4 +1,5 @@
-# react-input-debouncer
+# react-input-debouncer 
+[![Build Status](https://travis-ci.org/prawn-cake/react-input-debouncer.svg?branch=master)](https://travis-ci.org/prawn-cake/react-input-debouncer)
 
 ## Why ?
 Are you familiar with a problem of poor performance 
