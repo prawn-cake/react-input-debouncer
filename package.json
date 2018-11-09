@@ -4,7 +4,7 @@
   "description": "Zero dependencies text input debounce function for react",
   "main": "src/index.js",
   "scripts": {
-    "test": "yarn test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/prawn-cake/react-input-debouncer/issues"
   },
-  "homepage": "https://github.com/prawn-cake/react-input-debouncer#readme"
+  "homepage": "https://github.com/prawn-cake/react-input-debouncer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  }
 }
