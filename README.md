@@ -16,6 +16,7 @@ Few issues with them:
 
 This library simply provides react specific `debounce` function to use along with regular html input element.
 
+__This is fair for [uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html), since controlled components require synchronous update.__
 
 ## Install
 
